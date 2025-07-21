@@ -1,0 +1,12 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+<body>
+    <div id="json-container">
+        <%=data%>
+    </div>
+    <br/>
+    <form id="download-form" action="/download" method="GET">
+        <button type="submit">Download JSON</button>
+    </form>
+</body>
+</html>
